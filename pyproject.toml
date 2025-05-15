@@ -1,0 +1,20 @@
+[project]
+name = "paper-code-section"
+version = "0.1.0"
+description = "This code accompanies the publication "[Your Paper Title Here]" and is provided for code availability and reproducibility.
+"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "matplotlib",
+    "opencv-python",
+    "pandas",
+    "scipy,
+    "scikit-learn",
+    "openpyxl",
+    "segment_anything",
+    "mobile_sam @ git+https://github.com/ChaoningZhang/MobileSAM.git",
+]
