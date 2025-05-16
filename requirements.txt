@@ -1,7 +1,7 @@
-# PyTorch with CUDA 12.x support
+# PyTorch with CUDA 12.x support or CPU-only version if CUDA is not available
 torch>=2.0.0
 torchvision>=0.15.0
---extra-index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://download.pytorch.org/whl/cu121 # For other CUDA versions, change the URL accordingly
 numpy
 matplotlib
 opencv-python
