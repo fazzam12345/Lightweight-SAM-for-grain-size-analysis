@@ -1,0 +1,12 @@
+# PyTorch with CUDA 12.x support
+torch>=2.0.0
+torchvision>=0.15.0
+--extra-index-url https://download.pytorch.org/whl/cu121
+numpy
+matplotlib
+opencv-python
+pandas
+scipy
+scikit-learn
+openpyxl
+git+https://github.com/ChaoningZhang/MobileSAM.git
