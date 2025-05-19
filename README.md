@@ -1,6 +1,6 @@
 # Lightweight-SAM-for-grain-size-analysis
 
-This repository contains code for applying and evaluating **lightweight variants of the Segment Anything Model (SAM)** for **automated grain size analysis** in petrographic images.
+This repository contains code for applying and evaluating **lightweight variants of the Segment Anything Model (SAM)** for **grain size analysis** in petrographic images.
 
 It provides a framework to perform automatic mask generation, extract quantitative grain properties, and evaluate performance against ground truth data, including segmentation accuracy and grain size distribution similarity.
 
